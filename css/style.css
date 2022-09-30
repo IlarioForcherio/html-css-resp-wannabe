@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 
- /* SCHERMO 480 */
+ /* 480 SCREEN (MOBILE) */
 
 
  @media screen and (max-width: 480px){
@@ -160,6 +160,21 @@ img {
     }
     .why-us .col-right {
         width: 100%;
+    }
+    
+ }
+
+
+ /* 768 SCREEN (TABLET)   */
+
+
+ @media screen  and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        
     }
     
  }
